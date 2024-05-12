@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Feedback</title>
+    <link rel="stylesheet" href="./STYLE/feedback.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-items">
+          <button class="button-dropdown">
+            <img src="./IMG/Dropdown.png" alt="dropdown icon" />
+          </button>
+          <img src="./IMG/search bar.png" alt="search bar" />
+        </div>
+
+        <div class="header-items">
+          <img src="./IMG/Logo.png" alt="logo" />
+        </div>
+        <div></div>
+
+        <div class="header-items">
+          <img src="./IMG/Home.png" alt="home" />
+          <img src="./IMG/Cart.png" alt="cart" />
+          <img src="./IMG/Rescue.png" alt="rescue" />
+          <img src="./IMG/Profile Pic.png" alt="Profile" />
+        </div>
+      </div>
+
+      <section class="hero-section">
+        <div class="hero-container">
+          <h1>Feedback</h1>
+        </div>
+      </section>
+
+      <section class="feedback-section">
+        <div class="feedback-container">
+          <div></div>
+          <!-- Add feedback -->
+          <div class="textbox-container">
+            <div class="textbox">
+              <button class="show-modal">
+                What's on your mind? Leave us a feedback.
+              </button>
+            </div>
+          </div>
+          <div></div>
+        </div>
+
+        <!-- modal -->
+        <div class="modal hidden">
+          <button class="close-modal">&times;</button>
+          <h2>Write a Feedback</h2>
+          <hr />
+          <form action="">
+            <textarea name="feedback" class="feedback-input"></textarea>
+          </form>
+        </div>
+        <div class="overlay hidden"></div>
+
+        <!-- feedback 1 -->
+        <div class="feedback-container">
+          <div></div>
+          <div class="feedback">
+            <div class="feedback-top">
+              <div class="comment-pic">
+                <img src="./IMG/commentpic1.png" alt="commentor profile 1" />
+              </div>
+              <div class="comment-infos">
+                <h2>PawsomeGuardian</h2>
+                <h3>@PawsomeGuardian101</h3>
+                <i class="review fa-solid fa-star"></i>
+                <i class="review fa-solid fa-star"></i>
+                <i class="review fa-solid fa-star"></i>
+                <i class="review fa-solid fa-star"></i>
+                <i class="review fa-solid fa-star"></i>
+                <p class="review-date">3 days ago</p>
+                <div class="comment-buttons">
+                  <div class="button-container">
+                    <i class="comment-icon fa-regular fa-message"></i>
+                    <p class="review-date message-number-0">132</p>
+                  </div>
+                  <div class="button-container">
+                    <i class="heart-0 comment-icon fa-solid fa-heart"></i>
+                    <p class="review-date heart-number-0">1123</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback-bottom">
+              <div class="comment">
+                <p>
+                  I just wanted to say how much I'm enjoying this website! It's
+                  such a fun and interactive place for animal lovers like me.
+                  Being able to share stories and photos of our furfriends is
+                  amazing, and I can't wait to connect with more animal
+                  enthusiasts!
+                  <button class="read-more read-more-0">Read more</button>
+                  <span id="extra-text-0" class="hidden"
+                    ><br /><br />I've already met some great people here, and
+                    I'm excited to see what other awesome creatures I can
+                    discover. If you have any pets (furry, feathered, or
+                    scaled!), definitely come join the fun!<button
+                      class="read-less read-less-0"
+                    >
+                      Read less
+                    </button></span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div></div>
+        </div>
+
+        <!-- feedback 2 -->
+        <div class="feedback-container">
+          <div></div>
+          <div class="feedback">
+            <div class="feedback-top">
+              <div class="comment-pic">
+                <img src="./IMG/commentpic2.png" alt="commentor profile 2" />
+              </div>
+              <div class="comment-infos">
+                <h2>WhiskerWatcher</h2>
+                <h3>@WhiskerWatcher11</h3>
+                <i class="review fa-solid fa-star"></i>
+                <i class="review fa-solid fa-star"></i>
+                <i class="review fa-solid fa-star"></i>
+                <i class="review fa-solid fa-star"></i>
+                <i class="review fa-solid fa-star"></i>
+                <p class="review-date">2 weeks ago</p>
+                <div class="comment-buttons">
+                  <div class="button-container">
+                    <i class="comment-icon fa-regular fa-message"></i>
+                    <p class="review-date message-number-1">273</p>
+                  </div>
+                  <div class="button-container">
+                    <i class="heart-1 comment-icon fa-solid fa-heart"></i>
+                    <p class="review-date heart-number-1">1238</p>
+                  </div>
+                </div>
+              </div>
+              <div class="comment-buttons"></div>
+            </div>
+            <div class="feedback-bottom">
+              <div class="comment">
+                <p>
+                  Now, for the surprise! Even my usually grumpy cat Sunshine has
+                  (sort of) warmed up to this website. They surprised me with a
+                  thumbs up (well, maybe not literally, but their tail isn't
+                  swishing angrily today, which is practically a fiesta for
+                  Sunshine).
+                  <button class="read-more read-more-1">Read more</button>
+                  <span id="extra-text-1" class="hidden"
+                    >Maybe it's the endless stream of cute animal pics, or
+                    perhaps the positive energy of all the animal lovers here.
+                    Whatever the reason, Sunshine seems to be tolerating it all
+                    much better than usual! Can't wait to chat with you all
+                    about our amazing animals! Share your stories, photos, and
+                    any fun facts you have about your furry (or not-so-furry)
+                    friends.<button class="read-less read-less-1">
+                      Read less
+                    </button></span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div></div>
+        </div>
+
+        <!-- feedback 3 -->
+        <div class="feedback-container">
+          <div></div>
+          <div class="feedback">
+            <div class="feedback-top">
+              <div class="comment-pic">
+                <img src="./IMG/commentpic3.png" alt="commentor profile 3" />
+              </div>
+              <div class="comment-infos">
+                <h2>MyPetsAreMyLife</h2>
+                <h3>@Petty4Lyf</h3>
+                <i class="review fa-solid fa-star"></i>
+                <i class="review fa-solid fa-star"></i>
+                <i class="review fa-solid fa-star"></i>
+                <i class="review fa-solid fa-star"></i>
+                <i class="review fa-solid fa-star"></i>
+                <p class="review-date">A month ago</p>
+                <div class="comment-buttons">
+                  <div class="button-container">
+                    <i class="comment-icon fa-regular fa-message"></i>
+                    <p class="review-date message-number-2">346</p>
+                  </div>
+                  <div class="button-container">
+                    <i class="heart-2 comment-icon fa-solid fa-heart"></i>
+                    <p class="review-date heart-number-2">168</p>
+                  </div>
+                </div>
+              </div>
+              <div class="comment-buttons"></div>
+            </div>
+            <div class="feedback-bottom">
+              <div class="comment">
+                <p>
+                  Because of this website, shelters will now be at ease in
+                  navigating the adoption process for our furry friends in need
+                  of loving homes. Kudos to the FurFriend Finder developers!
+                  Their innovation is sure to make a significant impact on the
+                  lives of countless animals.
+                  <button class="read-more read-more-2">Read more</button>
+                  <span id="extra-text-2" class="hidden"
+                    >By connecting potential adopters with compatible pets,
+                    FurFriend Finder will not only increase adoption rates but
+                    also reduce overcrowding in shelters. This means more
+                    animals will find safe and happy homes, and shelters can
+                    focus on providing essential care to the animals in their
+                    facilities. Here's to FurFriend Finder for putting animal
+                    welfare at the forefront! xoxo<button
+                      class="read-less read-less-2"
+                    >
+                      Read less
+                    </button></span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </section>
+    </header>
+    <script src="./SCRIPT/feedback.js"></script>
+  </body>
+</html>
